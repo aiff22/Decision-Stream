@@ -19,7 +19,7 @@ This repository provides a basic implementation of the paper presenting the [Dec
 
 - [Clojure](https://clojure.org/)
 - [Apache Commons Math](https://commons.apache.org/proper/commons-math/)
-- [JBLAS](http://www.jblas.org/) requires [ATLAS](http://math-atlas.sourceforge.net/) or [BLAS/LAPACK](http://www.netlib.org/lapack).
+- [JBLAS](http://www.jblas.org/) (requires [ATLAS](http://math-atlas.sourceforge.net/) or [BLAS/LAPACK](http://www.netlib.org/lapack))
 - [OpenCSV](http://opencsv.sourceforge.net/)
 
 The dependencies are configured in the pom.xml file.
