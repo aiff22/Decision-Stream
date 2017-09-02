@@ -56,7 +56,7 @@ java -jar decision-stream.jar data/ailerons/ train_data.csv train_answ.csv test_
 
 #### 5. Provided datasets
 
-The datasets presented in the ```data``` folder:
+The datasets prepared for training in the ```data``` folder:
 
 - [Ailerons (F16 aircraft control problem)](http://www.dcc.fc.up.pt/~ltorgo/Regression/DataSets.html)
 - [Credit scoring](https://www.kaggle.com/c/GiveMeSomeCredit/data/) 
