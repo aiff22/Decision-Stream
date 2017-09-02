@@ -1,4 +1,4 @@
-# Decision-Stream
+# Decision Stream
 
 <br/>
 
