@@ -183,8 +183,8 @@
 
 (defn main [args]
   (if (not= 7 (count args))
-    (do (println "Wrang number of arguments.")
-        (println "Usage: java -jar decision-stream.jar base-directory train-data train-answers test-data test-answers classification/regression significanse-threshold")
+    (do (println "Wrong number of arguments.")
+        (println "Usage: java -jar decision-stream.jar base-directory train-data train-answers test-data test-answers learning_mode(classification/regression) significance-threshold")
         (println "Example: java -jar decision-stream.jar data/ailerons/ train_data.csv train_answ.csv test_data.csv test_answ.csv regression 0.02"))
     (binding [baseDir (nth args 0)]
       (binding [trainX (readData (nth args 1))
