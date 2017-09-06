@@ -10,7 +10,7 @@
 
 <br/>
 
-#### 1. Overview [[paper]](https://arxiv.org/pdf/1704.07657v2.pdf)
+#### 1. Overview [[paper]](https://arxiv.org/pdf/1704.07657.pdf)
 
 This repository provides a basic implementation of the [Decision Stream](https://arxiv.org/abs/1704.07657) regression and classification algorithm. Unlike the classical decision tree approach, this method builds a directed acyclic graph with high degree of connectivity by merging statistically indistinguishable nodes at each iteration.
 <br/><br/>
