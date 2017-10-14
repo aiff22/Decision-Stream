@@ -5,7 +5,8 @@
       org.jblas.DoubleMatrix
       edu.decision.stream.MatrixUtil
       java.util.Arrays
-      java.lang.reflect.Array))
+      java.lang.reflect.Array)
+  (:gen-class))
 
 (declare ^:dynamic pLevel)
 (declare ^:dynamic mgLevel)
@@ -181,7 +182,7 @@
 (defn readData [fileName] (readCSV (csvReader (str baseDir fileName))))
 (defn readAnswers [fileName] (mapv first (readData fileName)))
 
-(defn main [args]
+(defn -main [& args]
       (if (not= 7 (count args))
         (do (println "Wrong number of arguments.")
             (println "Usage: java -jar decision-stream.jar base-directory train-data train-answers test-data test-answers classification/regression significance-threshold")
