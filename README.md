@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="img/desision_stream.jpg" width="60%"/>
+<img src="img/decision-stream.jpg" width="60%"/>
 
 <br/>
 
