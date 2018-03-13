@@ -28,7 +28,8 @@ The dependencies are configured in the pom.xml file.
 #### 3. First steps
 
 - Extract the archive ```data.gz``` with training data by running ```tar -xvzf data.gz```
-- *Optional:* rebuild ```decision-stream.jar``` with ```mvn package``` [Maven](https://maven.apache.org/) command.
+- *Optional:* rebuild ```decision-stream.jar``` with [Leiningen](https://leiningen.org/) (```lein uberjar```) or [Maven](https://maven.apache.org/) (```mvn package```).
+ 
 <br/><br/>
 
 #### 4. Train the model
